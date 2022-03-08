@@ -52,7 +52,7 @@ p {
   margin-top: 100px;
 }
 
-.btn {
+.contact-button {
   background: #d93465;
   background-image: -webkit-linear-gradient(top, #d93465, #b82b61);
   background-image: -moz-linear-gradient(top, #d93465, #b82b61);
@@ -69,7 +69,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover {
+.contact-button:hover {
   background: #fa3c85;
   background-image: -webkit-linear-gradient(top, #fa3c85, #d9347b);
   background-image: -moz-linear-gradient(top, #fa3c85, #d9347b);
@@ -100,13 +100,10 @@ p {
 
 .menu {
   position: absolute;
-  top: 0;
-  right: 0;
-  color: white;
-  height: 50px;
-  width: 410px;
-  background-color: #B42B51;
-  font-family: 'League Spartan', sans-serif;
+  top: 10px;
+  right: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .skills-container {
@@ -124,35 +121,52 @@ p {
   position: relative;
 }
 
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #B42B51;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 #home {
   position: absolute;
-  font-size: 25px;
   top: 10px;
-  right:350px;
-  width: 5%;
-  color: white;
+  right:390px;
+  color: #444444;
+  font-size: 25px;
 }
 
 #projects {
   position: absolute;
   top: 10px;
   right: 230px;
-  width: 5%;
+  color: #444444;
   font-size: 25px;
-  color: white;
 }
 
 #contact-me {
   position: absolute;
   top: 10px;
-  right: 100px;
-  width: 5%;
+  right: 80px;
+  color: #444444;
   font-size: 25px;
-  color: white;
-}
-
-#logo {
-
 }
 
 #biryani {
