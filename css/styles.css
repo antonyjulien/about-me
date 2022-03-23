@@ -31,9 +31,9 @@ h3 {
 hr {
   border-style: none;
   border-top: dotted;
-  border-width: 5px;
+  border-width: 10px;
   color: grey;
-  width: 40px;
+  width: 4px;
   margin: 50px auto;
 }
 
@@ -146,25 +146,16 @@ p {
 }
 
 #home {
-  position: absolute;
-  top: 10px;
-  right:390px;
   color: #444444;
   font-size: 25px;
 }
 
 #projects {
-  position: absolute;
-  top: 10px;
-  right: 230px;
   color: #444444;
   font-size: 25px;
 }
 
 #contact-me {
-  position: absolute;
-  top: 10px;
-  right: 80px;
   color: #444444;
   font-size: 25px;
 }
@@ -214,7 +205,7 @@ p {
   left: 700px;
 }
 
-#myImage {
+img {
   width : 15em;
   height: 15em;
   margin-bottom: 1em;
