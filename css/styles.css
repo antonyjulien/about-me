@@ -156,4 +156,7 @@ p {
 #copyright {
   margin-bottom: 0;
   padding: 2%;
+  font-size: 1rem;
+  font-style: italic;
+  color: white;
 }
