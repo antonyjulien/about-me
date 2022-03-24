@@ -14,11 +14,19 @@ h4 {
   color: #B42B51;
   font-size: 30px;
   font-family: 'League Spartan', sans-serif;
+  margin-bottom: 40px;
 }
 
 h5 {
   font-family: 'League Spartan', sans-serif;
   font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color : white;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.1rem;
 }
 
 p {
@@ -55,9 +63,35 @@ p {
 
 }
 
+/* SKILLS */
+#coding-image {
+  width : 13rem;
+  height : 13rem;
+  padding: 30px;
+}
+
+#biryani-image {
+  width : 13rem;
+  height : 13rem;
+  padding: 30px;
+}
+
+#skill-explanation {
+  text-align: justify;
+  padding-top: 1%
+}
+
+
 /* CONTACT */
 
-#contact {
+#final-words {
+  padding: 2%;
+  width: 50%;
+  margin: auto;
+}
+
+.social-media-container {
+  padding-top : 2%;
   background-color: #B42B51;
 }
 
@@ -73,7 +107,7 @@ p {
   border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -89,9 +123,7 @@ p {
 }
 
 #get-in-touch {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  color: white;
+
 }
 #copyright {
   margin-bottom: 0;
