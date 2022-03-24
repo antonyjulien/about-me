@@ -1,0 +1,162 @@
+h2 {
+    color: #B42B51;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+}
+
+h3 {
+  color: #B42B51;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 23px;
+}
+
+h4 {
+  color: #B42B51;
+  font-size: 30px;
+  font-family: 'League Spartan', sans-serif;
+  margin-bottom: 40px;
+}
+
+h5 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color : white;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+}
+
+
+/* TITLE */
+
+#title {
+  background-image: url("../resources/images/main.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+.say-hello {
+  font-size: 1.5rem;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.say-hello-button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'League Spartan', sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.say-hello-button:hover {
+  background: #B42B51;
+  background-image: -webkit-linear-gradient(top, #B42B51, #B42B51);
+  background-image: -moz-linear-gradient(top, #B42B51, #B42B51);
+  background-image: -ms-linear-gradient(top, #B42B51, #B42B51);
+  background-image: -o-linear-gradient(top, #B42B51, #B42B51);
+  background-image: linear-gradient(to bottom, #B42B51, #B42B51);
+  text-decoration: none;
+}
+
+.intro-text {
+  padding: 10%;
+}
+
+/* INTRODUCTION */
+
+#introduction {
+  margin: 50px auto;
+}
+
+#my-image {
+  width : 15rem;
+  height : 15rem;
+  margin-bottom: 30px;
+}
+
+.introduction-box {
+
+}
+
+/* SKILLS */
+
+#coding-image {
+  width : 13rem;
+  height : 13rem;
+  padding: 30px;
+}
+
+#biryani-image {
+  width : 13rem;
+  height : 13rem;
+  padding: 30px;
+}
+
+#skill-explanation {
+  text-align: justify;
+  padding-top: 1%
+}
+
+
+/* CONTACT */
+
+#final-words {
+  padding: 2%;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-button {
+  background: #d93465;
+  background-image: -webkit-linear-gradient(top, #d93465, #b82b61);
+  background-image: -moz-linear-gradient(top, #d93465, #b82b61);
+  background-image: -ms-linear-gradient(top, #d93465, #b82b61);
+  background-image: -o-linear-gradient(top, #d93465, #b82b61);
+  background-image: linear-gradient(to bottom, #d93465, #b82b61);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background: #fa3c85;
+  background-image: -webkit-linear-gradient(top, #fa3c85, #d9347b);
+  background-image: -moz-linear-gradient(top, #fa3c85, #d9347b);
+  background-image: -ms-linear-gradient(top, #fa3c85, #d9347b);
+  background-image: -o-linear-gradient(top, #fa3c85, #d9347b);
+  background-image: linear-gradient(to bottom, #fa3c85, #d9347b);
+  text-decoration: none;
+}
+
+#get-in-touch {
+  padding: 2%;
+}
+
+.social-media-container {
+  padding-top : 2%;
+  background-color: #B42B51;
+}
+
+#copyright {
+  margin-bottom: 0;
+  padding: 2%;
+  font-size: 1rem;
+  font-style: italic;
+  color: white;
+}
