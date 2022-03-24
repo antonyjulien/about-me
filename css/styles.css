@@ -69,24 +69,6 @@ p {
   text-decoration: none;
 }
 
-.hover-underline-animation:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 3px;
-  bottom: 0;
-  left: 0;
-  background-color: #B42B51;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
 .intro-text {
   padding: 10%;
 }
@@ -108,6 +90,7 @@ p {
 }
 
 /* SKILLS */
+
 #coding-image {
   width : 13rem;
   height : 13rem;
@@ -132,11 +115,6 @@ p {
   padding: 2%;
   width: 50%;
   margin: auto;
-}
-
-.social-media-container {
-  padding-top : 2%;
-  background-color: #B42B51;
 }
 
 .contact-button {
@@ -169,6 +147,12 @@ p {
 #get-in-touch {
   padding: 2%;
 }
+
+.social-media-container {
+  padding-top : 2%;
+  background-color: #B42B51;
+}
+
 #copyright {
   margin-bottom: 0;
   padding: 2%;
