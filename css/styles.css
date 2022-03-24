@@ -26,7 +26,7 @@ a {
   text-decoration: none;
   color : white;
   font-family: 'League Spartan', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 p {
@@ -41,6 +41,50 @@ p {
   background-image: url("../resources/images/main.jpg");
   background-color: #cccccc;
   background-size: cover;
+}
+
+.say-hello {
+  font-size: 1.5rem;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.say-hello-button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'League Spartan', sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.say-hello-button:hover {
+  background: #B42B51;
+  background-image: -webkit-linear-gradient(top, #B42B51, #B42B51);
+  background-image: -moz-linear-gradient(top, #B42B51, #B42B51);
+  background-image: -ms-linear-gradient(top, #B42B51, #B42B51);
+  background-image: -o-linear-gradient(top, #B42B51, #B42B51);
+  background-image: linear-gradient(to bottom, #B42B51, #B42B51);
+  text-decoration: none;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #B42B51;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .intro-text {
@@ -123,7 +167,7 @@ p {
 }
 
 #get-in-touch {
-
+  padding: 2%;
 }
 #copyright {
   margin-bottom: 0;
