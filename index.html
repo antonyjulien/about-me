@@ -3,13 +3,17 @@
 
 <head>
   <meta charset="utf-8">
+  <title>Julien Antony</title>
+
+  <!-- Page Icon -->
+  <link rel="icon" href="resources/images/chillies.ico">
 
   <!-- Bootstrap Files -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-  <!-- Page Icon -->
-  <link rel="icon" href="resources/images/chillies.ico">
+  <!-- Font Awesome Files -->
+  <script src="https://kit.fontawesome.com/91a89c58b3.js" crossorigin="anonymous"></script>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,83 +21,73 @@
   <link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto+Mono:wght@500&family=Satisfy&display=swap" rel="stylesheet">
 
   <!-- CSS Files -->
-  <!-- <link rel="stylesheet" href="css/styles.css"> -->
-  <title>Julien Antony</title>
+  <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-  <section id="introduction">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id = "nnavbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto" >
-            <li class="nav-item">
-              <a class="nav-link" id="home" href="index.html">Home</a>
-            </li>
-            <li>
-              <a class="hover-underline-animation nav-link" id="projects" href="https://github.com/antonyjulien">Projects</a>
-            </li>
-            <li>
-              <a class="hover-underline-animation nav-link" id="contact-me" href="#get-in-touch">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <section id="title" class="text-center">
+    <div class="container-lg">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <button type="button" class = "btn btn-outline-danger btn-sm" name="button"><a class="nav-link" href="#contact">Say Hello</a></button>
+          </li>
+        </ul>
       </nav>
+      <div class="intro-text">
+        <h2>I'm Julien</h2>
+        <h3>a Front End Developer</h3>
+      </div>
     </div>
   </section>
 
-  <div class="intro-container">
-    <div class="menu">
-
-
-
+  <section id="introduction">
+    <div class="text-center">
+      <img id="my-image" src="resources/images/julien.png" alt="My Image">
+      <h4>Hello</h4>
+      <h5>Let's get to know about me.</h5>
     </div>
-    <div class="my-name-and-position">
-      <h1>I'm Julien</h1>
-      <h2 id="programmer">a Web Developer</h2>
+    <div class="text-justify">
+      <p class="w-auto p-3">
+        In the year of 2014, I finished my Bachelors but I was not sure of the
+        career I have to choose. After jumping between different field of jobs
+        for the past 7 years, finally I got to know that Web Developing is the
+        one that excites me and I am working on that.
+      </p>
+
+      <p class="w-auto p-3">
+        I don’t like to define myself by the work I’ve done. I define myself by
+        the work I want to do. Skills can be taught, personality is inherent.
+        I prefer to keep learning, continue challenging myself, and do
+        interesting things that matters.
+      </p>
+
+      <p class="w-auto p-3">
+        I’ve always been someone who has both a creative and a logical side.
+        I realized it would be the perfect fit for a developer. I could use my
+        creative side to design and my logical side to code. As a bonus, being
+        both designer and developer allows me to make sure no detail is lost
+        in translation.
+      </p>
     </div>
-  </div>
 
-  <div class="about-me-container">
-    <img id="myImage" src="resources/images/julien.png" alt="Julien Antony">
-    <h2>Hello.</h2>
-    <p>I am a Web Developer. Nice to meet you.</p>
-  </div>
+    <section id = "contact" class = "text-center">
+      <div class="contact-container">
+        <h4 id="get-in-touch">Get in Touch</h4>
+        <a class="contact-button" href="mailto: mantonyjulien@gmail.com">Contact</a>
+        <br>
+        <br>
+        <a id="linkedin" href="https://www.linkedin.com/in/julien-antony-b7029b170/"><img src="resources/images/linkedin.png" alt=""> LinkedIn</a>
+        <a id="twitter" href="https://twitter.com/AntonyJulien"><img src="resources/images/twitter.png" alt=""> Twitter</a>
+        <a id="instagram" href="https://www.instagram.com/i_am_julienn/"><img src="resources/images/instagram.png" alt=""> Instagram</a>
+        <p id="copyright">© 2020 Julien Antony</p>
+      </div>
+    </section>
 
-  <hr>
 
-  <h2>My Skills</h2>
-  <div class="skills-container">
-    <img id="code-image" src="resources/images/responsive.png" alt="Coders Image">
-    <h3>Design and Development</h3>
-    <p>I started learning to code because I am in love with a girl who is a Web Developer😅,
-      so that I can initiate a conversation. Overtime I gained a wealth of experience designing and developing
-      web applications. </p>
-    <div id="biryani">
-      <img id="biryani-image" src="resources/images/biryani.png" alt="Biryani image">
-      <h3>Biryani Challenge</h3>
-      <p>But my best skill is actually in eating biryani. I am the undisputed king of Biryani challenge. Thalapakatti Mutton Biryani is my favourite.</p>
-    </div>
-  </div>
 
-  <hr>
-
-  <div class="contact-container">
-    <h2 id="get-in-touch">Get in Touch</h2>
-    <h3>If you love biryani as much as I do.</h3>
-    <p>Love Biryani as much as I do? Let's talk about how awesome they are! We can code while we eat biryani!</p>
-    <a class="contact-button" href="mailto: mantonyjulien@gmail.com">Contact Me</a>
-  </div>
-
-  <div class="social-media-container">
-    <a id="linkedin" href="https://www.linkedin.com/in/julien-antony-b7029b170/"><img src="resources/images/linkedin.png" alt=""> LinkedIn</a>
-    <a id="twitter" href="https://twitter.com/AntonyJulien"><img src="resources/images/twitter.png" alt=""> Twitter</a>
-    <a id="instagram" href="https://www.instagram.com/i_am_julienn/"><img src="resources/images/instagram.png" alt=""> Instagram</a>
-    <p id="copyright">© 2020 Julien Antony @ Bunny and Rabbit Co.</p>
-  </div>
+  </section>
 
 </body>
 
